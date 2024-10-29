@@ -12,9 +12,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Dtos\ProductImageDtos\" />
-    <Folder Include="Dtos\ProductDetailDtos\" />
-  </ItemGroup>
-
 </Project>
