@@ -5,7 +5,7 @@ using BuyWave.Catalog.Services.ProductImageServices;
 using BuyWave.Catalog.Settings;
 using MongoDB.Driver;
 
-namespace BuyWave.Catalog.Services.ProductImageImageServices;
+namespace BuyWave.Catalog.Services.ProductImageServices;
 
 public class ProductImageService: IProductImageService
 {
