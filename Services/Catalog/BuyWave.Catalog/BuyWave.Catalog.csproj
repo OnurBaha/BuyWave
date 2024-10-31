@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <Folder Include="Services\ProductImageServices\" />
-    <Folder Include="Services\ProductDetailServices\" />
   </ItemGroup>
 
 </Project>
