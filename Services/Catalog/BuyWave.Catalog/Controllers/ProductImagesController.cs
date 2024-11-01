@@ -26,7 +26,7 @@ namespace BuyWave.Catalog.Controllers
         [HttpGet("id")]
         public async Task<IActionResult> GetProductImageById(string id)
         {
-            var values = _productImageService.GetByIdProductImageAsync(id);
+            var values = await _productImageService.GetByIdProductImageAsync(id);
             return Ok(values);
         }
 

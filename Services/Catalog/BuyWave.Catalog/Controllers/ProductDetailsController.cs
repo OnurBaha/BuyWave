@@ -26,7 +26,7 @@ namespace BuyWave.Catalog.Controllers
         [HttpGet("id")]
         public async Task<IActionResult> GetProductDetailById(string id)
         {
-            var values = _productDetailService.GetByIdProductDetailAsync(id);
+            var values = await _productDetailService.GetByIdProductDetailAsync(id);
             return Ok(values);
         }
 

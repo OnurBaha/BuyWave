@@ -38,7 +38,7 @@ public class ProductService : IProductService
 
     public async Task<GetByIdProductDto> GetByIdProductAsync(string id)
     {
-        var values = _productCollection.Find<Product>(x=>x.ProductID ==id);
+        var values = await _productCollection.Find<Product>(x=>x.ProductID ==id).FirstOrDefaultAsync();
         return _mapper.Map<GetByIdProductDto>(values);
     }
 
