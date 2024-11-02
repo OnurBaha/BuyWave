@@ -55,7 +55,7 @@ public class DiscountService : IDiscountService
         parameters.Add("@couponId", id);
         using (var connection = _context.CreateConnection())
         {
-            var values = await connection.QueryFirstOrDefaultAsync<GetByIdDiscountCouponDto>(query);
+            var values = await connection.QueryFirstOrDefaultAsync<GetByIdDiscountCouponDto>(query, parameters);
             return values;
         }
     }
