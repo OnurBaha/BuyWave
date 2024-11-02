@@ -1,6 +1,6 @@
 ﻿namespace BuyWave.Discount.Dtos;
 
-public class ResultCouponDto
+public class ResultDiscountCouponDto
 {
     public int CouponId { get; set; }
     public string Code { get; set; }
