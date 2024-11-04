@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BuyWave.Order.Application.Features.CQRS.Handlers; 
+namespace BuyWave.Order.Application.Features.CQRS.Handlers.AddressHandlers; 
 
 public class GetAddressQueryHandler
 {
