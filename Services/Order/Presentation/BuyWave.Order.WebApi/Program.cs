@@ -1,8 +1,13 @@
 using BuyWave.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 using BuyWave.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers;
+using BuyWave.Order.Application.Interfaces;
+using BuyWave.Order.Application.Services;
+using BuyWave.Order.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddApplicationService(builder.Configuration);
 
 #region
 builder.Services.AddScoped<GetAddressQueryHandler>();
