@@ -21,13 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7D6131A3-F41E-4FE5-8E19-5265AD02AECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyWave.Order.Domain", "Services\Order\Core\BuyWave.Order.Domain\BuyWave.Order.Domain.csproj", "{593106EF-8B32-4F34-A96D-7ED0AA6D3521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyWave.Order.Domain", "Services\Order\Core\BuyWave.Order.Domain\BuyWave.Order.Domain.csproj", "{593106EF-8B32-4F34-A96D-7ED0AA6D3521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyWave.Order.Application", "Services\Order\Core\BuyWave.Order.Application\BuyWave.Order.Application.csproj", "{09F006CF-70FE-4761-A8CD-41EC44A2BEC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyWave.Order.Application", "Services\Order\Core\BuyWave.Order.Application\BuyWave.Order.Application.csproj", "{09F006CF-70FE-4761-A8CD-41EC44A2BEC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyWave.Order.Persistence", "Services\Order\Infrastructure\BuyWave.Order.Persistence\BuyWave.Order.Persistence.csproj", "{5BCF861F-64E8-486C-9A5F-F116A5F7096D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyWave.Order.Persistence", "Services\Order\Infrastructure\BuyWave.Order.Persistence\BuyWave.Order.Persistence.csproj", "{5BCF861F-64E8-486C-9A5F-F116A5F7096D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyWave.Order.WebApi", "Services\Order\Presentation\BuyWave.Order.WebApi\BuyWave.Order.WebApi.csproj", "{2AA7DD32-1B92-4EF3-949F-AF5CD2DC6750}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyWave.Order.WebApi", "Services\Order\Presentation\BuyWave.Order.WebApi\BuyWave.Order.WebApi.csproj", "{2AA7DD32-1B92-4EF3-949F-AF5CD2DC6750}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{0E2115F8-4604-4B84-B8BA-0ECE3A1ACED9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyWave.IdentityServer", "IdentityServer\BuyWave.IdentityServer\BuyWave.IdentityServer.csproj", "{1E0A6C8B-D50A-42B9-BF54-85A29DDB7BFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{2AA7DD32-1B92-4EF3-949F-AF5CD2DC6750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA7DD32-1B92-4EF3-949F-AF5CD2DC6750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA7DD32-1B92-4EF3-949F-AF5CD2DC6750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0A6C8B-D50A-42B9-BF54-85A29DDB7BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0A6C8B-D50A-42B9-BF54-85A29DDB7BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0A6C8B-D50A-42B9-BF54-85A29DDB7BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0A6C8B-D50A-42B9-BF54-85A29DDB7BFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,7 @@ Global
 		{09F006CF-70FE-4761-A8CD-41EC44A2BEC4} = {E1F60F4F-B46D-4B06-9316-D7E903C9F36C}
 		{5BCF861F-64E8-486C-9A5F-F116A5F7096D} = {AA36B4B9-6378-4CF3-B470-C2879B016D14}
 		{2AA7DD32-1B92-4EF3-949F-AF5CD2DC6750} = {7D6131A3-F41E-4FE5-8E19-5265AD02AECA}
+		{1E0A6C8B-D50A-42B9-BF54-85A29DDB7BFA} = {0E2115F8-4604-4B84-B8BA-0ECE3A1ACED9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAD0309B-C707-462C-9C35-9DD39CF91F17}
